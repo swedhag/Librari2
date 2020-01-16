@@ -1,0 +1,101 @@
+.personalShelf{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.shelfName{
+font-family: Futura;
+font-size: 18px;
+color: #FFF;
+margin-top: 30px;
+margin-bottom: 5px;
+}
+
+.collection{
+background: #FFF;
+overflow-x: scroll;
+overflow-y: hidden;
+position: relative;
+white-space: nowrap;
+height: auto;
+max-height: 300px;
+display: block;
+width: 100%;
+padding: 10px;
+border: 0px;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+.collectionBook{
+display: inline-block;
+margin: 3px;
+}
+
+.bookimg {
+height: 204px;
+width: 128px;
+}
+
+.booktitle {
+font-family: Futura;
+font-size: 14px;
+display: block;
+position: absolute;
+height: 204px;
+width: 128px;
+padding: 10px;
+padding-top: 20px;
+margin-top: -204px;
+background: #446083;
+color: #fff;
+opacity: 0;
+visibility: hidden;
+text-align: center;
+transition: opacity .5s, visibility .5s;
+white-space: normal;
+}
+
+.collectionBook:hover .booktitle{
+visibility: visible;
+opacity: 0.8;
+}
+
+.removebtn{
+margin-bottom: 20px;
+}
+
+.removebtn:hover{
+opacity: 0.8;
+}
+
+.editbtn{
+color: #fff;
+margin-left:10px;
+}
+
+.editbtn:active {
+transform: translateY(2px);
+}
+
+.editbtn:hover, .removebtn:hover{
+color: #C0C0C0;
+border-color: #C0C0C0;
+}
+
+.noBooks{
+color: #C0C0C0;
+padding: 10px;
+margin-bottom: 0px;
+}
+#removediv{
+    padding-top:0px;
+    text-align:left;
+    height:15px;
+}
+.noShelves, .loginmsg{
+    margin-top:5%;
+    font-family: Futura;
+    font-size: 15px;
+    color: white;
+}

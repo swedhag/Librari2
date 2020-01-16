@@ -1,0 +1,38 @@
+.bookWindow{
+margin-top: 20px;
+background: #FFF;
+margin-left: 10px;
+margin-right: 10px;
+width: 50%;
+min-width: 300px;
+border-radius: 5px;
+}
+
+.left, .right{
+width: 300px;
+display: inline-block;
+vertical-align: middle;
+text-align: center;
+padding: 20px;
+}
+
+h2, h3, h4{
+font-family: Futura;
+}
+
+
+.bookWindow input, .bookWindow select {
+color: #000;
+background: #FFF;
+}
+
+.windowHeader{
+    padding:10px;
+    text-align:left;  
+}
+#exitbtn {
+    font-size:20px;
+}
+.bookthumb{
+    width:200px;
+}

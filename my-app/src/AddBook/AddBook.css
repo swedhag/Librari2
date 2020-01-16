@@ -1,0 +1,26 @@
+.AddBook{
+margin-top: 20px;
+border-top: 1px solid #446083;
+}
+
+.recommendLogin{
+    border-top: solid #446083 1px;
+    color: black;
+    padding-top: 10px;
+    font-family: Futura;
+}
+
+.addbtn:disabled {
+background: #dddddd;
+}
+    
+.CreateShelf input{
+margin-top: 20px;
+background: #F2F2F2;
+}
+    
+.ChooseShelf select{
+margin-top: 20px;
+padding: 5px;
+background: #F2F2F2;
+}

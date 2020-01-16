@@ -1,0 +1,42 @@
+.searchResults{
+background: #FFF;
+overflow: auto;
+display: block;
+height: auto;
+width: 100%;
+padding: 10px;
+border: 0px;
+border-radius: 5px;
+text-align: center;
+}
+
+.bookfound{
+display: inline-block;
+margin: 3px;
+}
+
+.bookimg {
+height: 204px;
+width: 128px;
+}
+
+.booktitle {
+font-size: 14px;
+display: block;
+position: absolute;
+height: 204px;
+width: 128px;
+margin-top: -204px;
+background: #446083;
+color: #FFF;
+opacity: 0;
+visibility: hidden;
+text-align: center;
+transition: opacity .5s, visibility .5s;
+white-space: normal;
+}
+
+.bookfound:hover .booktitle {
+visibility: visible;
+opacity: 0.9;
+}

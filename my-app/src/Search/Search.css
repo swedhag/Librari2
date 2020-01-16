@@ -1,0 +1,11 @@
+.searchbar{ 
+padding-bottom: 10px;
+text-align: center;
+}
+
+
+.searchWindow{
+background: #FFF;
+width: 50%;
+min-width: 280px;
+}
